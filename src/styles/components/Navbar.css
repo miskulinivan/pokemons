@@ -1,0 +1,115 @@
+@import '../fonts.css';
+nav {
+    background-color: #333;
+    padding: 1rem 0;
+    width: 100%;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.scrolled {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.navbar-brand {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.2rem;
+    content: url('../../assets/icons/logo.svg');
+    width: 64px;
+}
+.navbar-wrapper {
+    display: flex;
+    align-items: center;
+}
+.navbar-sort {
+    display: flex;
+    align-items: center;
+}
+
+.alphabet-sort {
+    content: url('../../assets/icons/alphabet-sort.svg');
+    width: 50px;
+    height: 50px;
+    margin-left: 0.5rem;
+}
+
+.navbar input {
+    padding: 1rem 0.1rem 1rem 0.1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    border: none;
+    margin-right: 0.5rem;
+    border-radius: 3rem;
+    outline: none;
+    letter-spacing: 0.05rem;
+    color: #333;
+    font-family: 'Sansita', sans-serif;
+    width: 100%;
+}
+.navbar input::placeholder {
+    color: #333;
+}
+
+.wrapper-img {
+    margin: 0;
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.navbar-search {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    max-width: 200px;
+}
+
+.navbar-search input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    border: none;
+    margin-right: 0.5rem;
+    border-radius: 3rem;
+    outline: none;
+    letter-spacing: 0.05rem;
+    color: #333;
+    font-family: 'Sansita', sans-serif;
+    background-color: transparent;
+    flex: 1;
+}
+.wrapper-favourites {
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.wrapper-favourites img {
+    width: 50px;
+}
+.favourites-count {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #f44336;
+    color: #fff;
+    padding: 0.25rem 0.5rem;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin: 0;
+}
+.wrapper-buttons {
+    display: flex;
+    margin-left: 0.45rem;
+}
